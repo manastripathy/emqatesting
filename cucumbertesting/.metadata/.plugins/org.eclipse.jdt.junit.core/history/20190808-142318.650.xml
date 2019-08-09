@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest (1)" project="mavenprojectprototype" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="mavenprojectprototype.RunnerTest" time="54.058">
+    <testsuite name="Feature: Databases Page load test" time="54.058">
+      <testsuite name="Scenario Outline: databases Page load test" time="54.058">
+        <testsuite name="Examples:" time="54.058">
+          <testsuite name="| FF |" time="54.058">
+            <testcase name="Given lanuch EM URL in &quot;FF&quot;" classname="| FF |" time="5.107"/>
+            <testcase name="Then enter username pssword and click login button" classname="| FF |" time="0.303"/>
+            <testcase name="When click on Targets link to see all the options" classname="| FF |" time="21.097"/>
+            <testcase name="When click on Database option" classname="| FF |" time="0.143"/>
+            <testcase name="Then Database page should load successfully" classname="| FF |" time="23.099"/>
+            <testcase name="When Click on logout" classname="| FF |" time="3.406"/>
+            <testcase name="Then Successfully logged out" classname="| FF |" time="0.903"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,12 @@
+Feature: Login through specific browser 
+
+Scenario: Open target URL in Firefox
+	Given enter username pssword and click login button
+	Then  checking for enterprise manager text in home page
+	
+Scenario: Checking All Target Page Load
+	When enter username and pssword
+	Given click on Targets link to see all the options
+	Given click on All Targets link
+	When check for All Target text on the landed page
+	Then Successfully landed on All Targets page

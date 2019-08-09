@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest (1)" project="mavenprojectprototype" tests="5" started="5" failures="0" errors="2" ignored="4">
+  <testsuite name="mavenprojectprototype.RunnerTest" time="0.594">
+    <testsuite name="Feature: Page Load Testing" time="0.594">
+      <testsuite name="Scenario Outline: Home Page load test" time="0.594">
+        <testsuite name="Examples:" time="0.594">
+          <testsuite name="| Edge |" time="0.006" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at mavenprojectprototype.BrowserSelection.initiateBrowserBasedOnInput(BrowserSelection.java:50)&#13;
+	at mavenprojectprototype.LoginSteps.lanuch_EM_URL_in_browsername(LoginSteps.java:32)&#13;
+	at ✽.Given lanuch EM URL in "Edge"(src/test/resources/FFBrowsertesting.feature:4)&#13;
+&#13;
+</error>
+            <testcase name="Given lanuch EM URL in &quot;Edge&quot;" classname="| Edge |" time="0.005">
+              <error>java.lang.NullPointerException&#13;
+	at mavenprojectprototype.BrowserSelection.initiateBrowserBasedOnInput(BrowserSelection.java:50)&#13;
+	at mavenprojectprototype.LoginSteps.lanuch_EM_URL_in_browsername(LoginSteps.java:32)&#13;
+	at ✽.Given lanuch EM URL in "Edge"(src/test/resources/FFBrowsertesting.feature:4)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="Then enter username pssword and click login button" classname="| Edge |" time="0.003" ignored="true"/>
+            <testcase name="When checking for enterprise manager text in home page" classname="| Edge |" time="0.0" ignored="true"/>
+            <testcase name="When Click on logout" classname="| Edge |" time="0.001" ignored="true"/>
+            <testcase name="Then Successfully logged out" classname="| Edge |" time="0.577" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

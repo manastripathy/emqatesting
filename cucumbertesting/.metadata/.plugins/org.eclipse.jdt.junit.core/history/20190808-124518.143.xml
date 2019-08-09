@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest (1)" project="mavenprojectprototype" tests="7" started="7" failures="2" errors="0" ignored="2">
+  <testsuite name="mavenprojectprototype.RunnerTest" time="38.729">
+    <testsuite name="Feature: Databases Page load test" time="38.729">
+      <testsuite name="Scenario Outline: databases Page load test" time="38.729">
+        <testsuite name="Examples:" time="38.729">
+          <testsuite name="| FF |" time="37.908" incomplete="true">
+            <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:52)&#13;
+	at mavenprojectprototype.DatabasePage.CheckDatabaseNameDisplayingOrNot(DatabasePage.java:40)&#13;
+	at mavenprojectprototype.LoginSteps.Database_page_should_load_successfully(LoginSteps.java:92)&#13;
+	at ✽.Then Database page should load successfully(src/test/resources/DatabasesPageLoad.feature:8)&#13;
+&#13;
+</failure>
+            <testcase name="Given lanuch EM URL in &quot;FF&quot;" classname="| FF |" time="6.575"/>
+            <testcase name="Then enter username pssword and click login button" classname="| FF |" time="0.288"/>
+            <testcase name="When click on Targets link to see all the options" classname="| FF |" time="1.026"/>
+            <testcase name="When click on Database option" classname="| FF |" time="30.019"/>
+            <testcase name="Then Database page should load successfully" classname="| FF |" time="0.0">
+              <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:52)&#13;
+	at mavenprojectprototype.DatabasePage.CheckDatabaseNameDisplayingOrNot(DatabasePage.java:40)&#13;
+	at mavenprojectprototype.LoginSteps.Database_page_should_load_successfully(LoginSteps.java:92)&#13;
+	at ✽.Then Database page should load successfully(src/test/resources/DatabasesPageLoad.feature:8)&#13;
+&#13;
+</failure>
+            </testcase>
+            <testcase name="When Click on logout" classname="| FF |" time="0.0" ignored="true"/>
+            <testcase name="Then Successfully logged out" classname="| FF |" time="0.806" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

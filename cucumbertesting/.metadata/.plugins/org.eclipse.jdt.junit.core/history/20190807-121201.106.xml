@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest (1)" project="mavenprojectprototype" tests="24" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="mavenprojectprototype.RunnerTest" incomplete="true">
+    <testsuite name="Feature: Page Load Testing" incomplete="true">
+      <testsuite name="Scenario Outline: All Targets Page load test" incomplete="true">
+        <testsuite name="Examples:" incomplete="true">
+          <testsuite name="| FF |" incomplete="true">
+            <testcase name="Given lanuch EM URL in &quot;FF&quot;" classname="| FF |" time="0.483"/>
+            <testcase name="Then enter username pssword and click login button" classname="| FF |" incomplete="true"/>
+            <testcase name="When click on Targets link to see all the options" classname="| FF |" incomplete="true"/>
+            <testcase name="When click on All Targets link" classname="| FF |" incomplete="true"/>
+            <testcase name="When check for All Target text on the landed page" classname="| FF |" incomplete="true"/>
+            <testcase name="When Click on logout" classname="| FF |" incomplete="true"/>
+            <testcase name="Then Successfully logged out" classname="| FF |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| Chrome |" incomplete="true">
+            <testcase name="Given lanuch EM URL in &quot;Chrome&quot;" classname="| Chrome |" incomplete="true"/>
+            <testcase name="Then enter username pssword and click login button" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When click on Targets link to see all the options" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When click on All Targets link" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When check for All Target text on the landed page" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When Click on logout" classname="| Chrome |" incomplete="true"/>
+            <testcase name="Then Successfully logged out" classname="| Chrome |" incomplete="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Page Load Testing" incomplete="true">
+      <testsuite name="Scenario Outline: Home Page load test" incomplete="true">
+        <testsuite name="Examples:" incomplete="true">
+          <testsuite name="| FF |" incomplete="true">
+            <testcase name="Given lanuch EM URL in &quot;FF&quot;" classname="| FF |" incomplete="true"/>
+            <testcase name="Then enter username pssword and click login button" classname="| FF |" incomplete="true"/>
+            <testcase name="When checking for enterprise manager text in home page" classname="| FF |" incomplete="true"/>
+            <testcase name="When Click on logout" classname="| FF |" incomplete="true"/>
+            <testcase name="Then Successfully logged out" classname="| FF |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| Chrome |" incomplete="true">
+            <testcase name="Given lanuch EM URL in &quot;Chrome&quot;" classname="| Chrome |" incomplete="true"/>
+            <testcase name="Then enter username pssword and click login button" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When checking for enterprise manager text in home page" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When Click on logout" classname="| Chrome |" incomplete="true"/>
+            <testcase name="Then Successfully logged out" classname="| Chrome |" incomplete="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

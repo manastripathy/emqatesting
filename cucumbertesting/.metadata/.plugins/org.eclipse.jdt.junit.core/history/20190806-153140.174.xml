@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest (1)" project="mavenprojectprototype" tests="24" started="24" failures="0" errors="4" ignored="6">
+  <testsuite name="mavenprojectprototype.RunnerTest" time="175.773">
+    <testsuite name="Feature: Page Load Testing" time="87.359">
+      <testsuite name="Scenario Outline: All Targets Page load test" time="87.359">
+        <testsuite name="Examples:" time="87.359">
+          <testsuite name="| FF |" time="29.319" incomplete="true">
+            <error>org.openqa.selenium.WebDriverException: Failed to find value field
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MATRIPAT-LAP1', ip: '192.167.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 107820, moz:profile: C:\Users\matripat.ORADEV\Ap..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ce57d2d4-ac13-46ad-b5e4-9961570d92c8
+*** Element info: {Using=xpath, value=//*[@id="emT:targets"]}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy16.click(Unknown Source)&#13;
+	at mavenprojectprototype.HomePage.clickOnTargetsLink(HomePage.java:37)&#13;
+	at mavenprojectprototype.LoginSteps.click_on_Targets_link_to_see_all_the_options(LoginSteps.java:69)&#13;
+	at ✽.When click on Targets link to see all the options(AllTargetsPageLoad.feature:6)&#13;
+&#13;
+</error>
+            <testcase name="Given lanuch EM URL in &quot;FF&quot;" classname="| FF |" time="0.482"/>
+            <testcase name="Then enter username pssword and click login button" classname="| FF |" time="28.784"/>
+            <testcase name="When click on Targets link to see all the options" classname="| FF |" time="0.048">
+              <error>org.openqa.selenium.WebDriverException: Failed to find value field
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MATRIPAT-LAP1', ip: '192.167.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 107820, moz:profile: C:\Users\matripat.ORADEV\Ap..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ce57d2d4-ac13-46ad-b5e4-9961570d92c8
+*** Element info: {Using=xpath, value=//*[@id="emT:targets"]}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy16.click(Unknown Source)&#13;
+	at mavenprojectprototype.HomePage.clickOnTargetsLink(HomePage.java:37)&#13;
+	at mavenprojectprototype.LoginSteps.click_on_Targets_link_to_see_all_the_options(LoginSteps.java:69)&#13;
+	at ✽.When click on Targets link to see all the options(AllTargetsPageLoad.feature:6)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="When click on All Targets link" classname="| FF |" time="0.007" ignored="true"/>
+            <testcase name="When check for All Target text on the landed page" classname="| FF |" time="0.003" ignored="true"/>
+            <testcase name="When Click on logout" classname="| FF |" time="0.001" ignored="true"/>
+            <testcase name="Then Successfully logged out" classname="| FF |" time="0.004" ignored="true"/>
+          </testsuite>
+          <testsuite name="| Chrome |" time="48.757">
+            <testcase name="Given lanuch EM URL in &quot;Chrome&quot;" classname="| Chrome |" time="5.962"/>
+            <testcase name="Then enter username pssword and click login button" classname="| Chrome |" time="0.262"/>
+            <testcase name="When click on Targets link to see all the options" classname="| Chrome |" time="11.466"/>
+            <testcase name="When click on All Targets link" classname="| Chrome |" time="3.039"/>
+            <testcase name="When check for All Target text on the landed page" classname="| Chrome |" time="23.549"/>
+            <testcase name="When Click on logout" classname="| Chrome |" time="4.478"/>
+            <testcase name="Then Successfully logged out" classname="| Chrome |" time="0.001"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Page Load Testing" time="75.208">
+      <testsuite name="Scenario Outline: Home Page load test" time="75.208">
+        <testsuite name="Examples:" time="75.208">
+          <testsuite name="| FF |" time="30.384" incomplete="true">
+            <error>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id="emT:ttlOt3"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MATRIPAT-LAP1', ip: '192.167.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 110136, moz:profile: C:\Users\matripat.ORADEV\Ap..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f402af78-134d-48c6-980a-c24f9293fc9a
+*** Element info: {Using=xpath, value=//*[@id="emT:ttlOt3"]}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy16.getText(Unknown Source)&#13;
+	at mavenprojectprototype.HomePage.checkForEnterpriseManagerTxtOnHomePage(HomePage.java:30)&#13;
+	at mavenprojectprototype.LoginSteps.checking_for_enterprise_manager_text_in_home_page(LoginSteps.java:49)&#13;
+	at ✽.When checking for enterprise manager text in home page(FFBrowsertesting.feature:6)&#13;
+&#13;
+</error>
+            <testcase name="Given lanuch EM URL in &quot;FF&quot;" classname="| FF |" time="0.368"/>
+            <testcase name="Then enter username pssword and click login button" classname="| FF |" time="30.015"/>
+            <testcase name="When checking for enterprise manager text in home page" classname="| FF |" time="0.001">
+              <error>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id="emT:ttlOt3"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MATRIPAT-LAP1', ip: '192.167.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 110136, moz:profile: C:\Users\matripat.ORADEV\Ap..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f402af78-134d-48c6-980a-c24f9293fc9a
+*** Element info: {Using=xpath, value=//*[@id="emT:ttlOt3"]}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy16.getText(Unknown Source)&#13;
+	at mavenprojectprototype.HomePage.checkForEnterpriseManagerTxtOnHomePage(HomePage.java:30)&#13;
+	at mavenprojectprototype.LoginSteps.checking_for_enterprise_manager_text_in_home_page(LoginSteps.java:49)&#13;
+	at ✽.When checking for enterprise manager text in home page(FFBrowsertesting.feature:6)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="When Click on logout" classname="| FF |" time="0.001" ignored="true"/>
+            <testcase name="Then Successfully logged out" classname="| FF |" time="0.0" ignored="true"/>
+          </testsuite>
+          <testsuite name="| Chrome |" time="35.701">
+            <testcase name="Given lanuch EM URL in &quot;Chrome&quot;" classname="| Chrome |" time="5.881"/>
+            <testcase name="Then enter username pssword and click login button" classname="| Chrome |" time="0.096"/>
+            <testcase name="When checking for enterprise manager text in home page" classname="| Chrome |" time="24.285"/>
+            <testcase name="When Click on logout" classname="| Chrome |" time="4.741"/>
+            <testcase name="Then Successfully logged out" classname="| Chrome |" time="0.698"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

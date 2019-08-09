@@ -1,0 +1,20 @@
+package mavenprojectprototype;
+
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+public class DatabasePageTestSteps {
+	WebDriver driver;
+	Properties inputFile;
+	HomePage hp;
+	AllTargetsPage ap;
+	Logout lo;
+
+	public DatabasePageTestSteps() throws IOException {
+		ReadPropFile rf = new ReadPropFile();
+		inputFile = rf.readPropFile();
+	}
+
+}

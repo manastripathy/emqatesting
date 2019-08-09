@@ -1,0 +1,16 @@
+Feature: Login through specific browser 
+
+Scenario: Home Page load test
+	Given lanuch EM URL 
+	Then  enter username pssword and click login button
+	When  checking for enterprise manager text in home page
+	Then  Successfully loaded the page
+	When  Click on logout
+	Then  Successfully logged out
+Scenario: All Targets Page load test
+	Given Lanuch EM URL
+	Then  enter username pssword and click login button
+	When click on Targets link to see all the options
+	When click on All Targets link
+	When check for All Target text on the landed page
+	Then Successfully loaded the page

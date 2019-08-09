@@ -1,0 +1,16 @@
+Feature: Browser Testing throgh Firefox 
+
+Scenario: Home Page load test 
+	Given lanuch EM URL 
+	Then  enter username pssword and click login button 
+	When  checking for enterprise manager text in home page 
+	When  Click on logout 
+	Then  Successfully logged out 
+Scenario: All Targets Page load test 
+	Given lanuch EM URL 
+	Then  enter username pssword and click login button 
+	When click on Targets link to see all the options 
+	When click on All Targets link 
+	When check for All Target text on the landed page 
+	When Click on logout 
+	Then Successfully logged out

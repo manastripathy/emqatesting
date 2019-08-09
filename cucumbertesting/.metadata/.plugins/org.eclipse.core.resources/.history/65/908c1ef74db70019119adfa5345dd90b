@@ -1,0 +1,90 @@
+package mavenprojectprototype;
+
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+
+//import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class LoginSteps {
+	WebDriver driver;
+	Properties inputFile;
+	HomePage hp;
+	AllTargetsPage ap;
+	
+	public LoginSteps() throws IOException {
+		ReadPropFile rf=new ReadPropFile();
+		inputFile=rf.readPropFile();
+		BrowserSelection bs=new BrowserSelection();
+		driver=bs.initiateBrowserBasedOnInput(inputFile.getProperty("BROWSER_NAME"));
+		driver.get(inputFile.getProperty("EM_URL"));
+		
+	}
+	
+	@Given("^load proerties file$")
+	public void load_proerties_file() throws Throwable {
+		ReadPropFile rf=new ReadPropFile();
+		inputFile=rf.readPropFile();
+	    
+	}
+	
+	@Given("^open em url in firefox$")
+	public void open_em_url_in_firefox() throws Throwable {
+		BrowserSelection bs=new BrowserSelection();
+		driver=bs.initiateBrowserBasedOnInput(inputFile.getProperty("BROWSER_NAME"));
+		driver.get(inputFile.getProperty("EM_URL"));
+	}	
+	
+	@When("^enter username and pssword$")
+	public void enter_username_and_pssword() throws Throwable {
+		LogInPage lp=new LogInPage(driver);
+	    lp.enter_username(inputFile.getProperty("USERNAME"));
+	    lp.enter_password(inputFile.getProperty("PASSWORD"));
+	}
+
+	@When("^click on login button$")
+	public void click_on_login_button() throws Throwable {
+		LogInPage lp=new LogInPage(driver);
+		lp.click_login_btn();
+	}
+
+	@Then("^successfully landed in home page$")
+	public void successfully_landed_in_home_page() throws Throwable {
+		hp=new HomePage(driver);
+		hp.checkForEnterpriseManagerTxtOnHomePage();
+		//driver.quit();
+	    
+	}
+	
+	@Given("^click on Targets link to see all the options$")
+	public void click_on_Targets_link_to_see_all_the_options() throws Throwable {
+		hp=new HomePage(driver);
+	    hp.clickOnTargetsLink();
+	}
+
+	@Given("^click on All Targets link$")
+	public void click_on_All_Targets_link() throws Throwable {
+	    hp.clickOnTargets("All Targets");
+	    
+	}
+
+	@When("^check for All Target text on the landed page$")
+	public void check_for_All_Target_text_on_the_landed_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    ap=new AllTargetsPage(driver);
+	    ap.checkAllTargetsTextVisibleOrNot();
+	}
+
+	@Then("^Successfully landed on All Targets page$")
+	public void successfully_landed_on_All_Targets_page() throws Throwable {
+	    System.out.println("Successfully landed on All targets page");
+	    driver.quit();
+	    
+	}
+
+}

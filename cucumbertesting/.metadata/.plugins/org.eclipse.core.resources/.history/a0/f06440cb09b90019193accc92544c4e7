@@ -1,0 +1,54 @@
+package mavenprojectprototype;
+
+
+
+import java.util.List;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
+
+
+public class DatabasePage {
+	
+	@FindBy(how=How.XPATH,using="//*[@id=\"emT:hdrtxtatr1\"]")
+	private WebElement DATABASE_TEXT_ID;
+	
+	@FindBy(how=How.CLASS_NAME,using="//*[@class=\"af_commandImageLink_text\"]")
+	private List<WebElement> ALL_DATABASE_NAMES_DISPLAY;
+		
+	
+	public DatabasePage (WebDriver driver)
+	{
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void checkForTextOnPage() {
+		String text=DATABASE_TEXT_ID.getText();
+		Assert.assertTrue(text.equals("Databases"));
+		
+	}
+	
+	public void CheckDatabaseNameDisplayingOrNot(String databaseName)
+	{
+		String databasepresent="false";
+		for (WebElement db : ALL_DATABASE_NAMES_DISPLAY)
+		{
+			if(db.getText().equals(databaseName))
+			{
+				databasepresent="true";
+				break;
+			}
+			else 
+			{
+				databasepresent="false";
+				System.out.println(databaseName + "is not showing in the page");
+			}
+		}
+		
+		Assert.assertTrue(databasepresent.equals("true"));
+	}
+}

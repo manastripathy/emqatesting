@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest (1)" project="mavenprojectprototype" tests="24" started="24" failures="0" errors="0" ignored="0">
+  <testsuite name="mavenprojectprototype.RunnerTest" time="207.719">
+    <testsuite name="Feature: Page Load Testing" time="104.685">
+      <testsuite name="Scenario Outline: All Targets Page load test" time="104.685">
+        <testsuite name="Examples:" time="104.685">
+          <testsuite name="| FF |" time="44.396">
+            <testcase name="Given lanuch EM URL in &quot;FF&quot;" classname="| FF |" time="5.642"/>
+            <testcase name="Then enter username pssword and click login button" classname="| FF |" time="0.312"/>
+            <testcase name="When click on Targets link to see all the options" classname="| FF |" time="10.894"/>
+            <testcase name="When click on All Targets link" classname="| FF |" time="1.806"/>
+            <testcase name="When check for All Target text on the landed page" classname="| FF |" time="22.717"/>
+            <testcase name="When Click on logout" classname="| FF |" time="3.024"/>
+            <testcase name="Then Successfully logged out" classname="| FF |" time="0.0"/>
+          </testsuite>
+          <testsuite name="| Chrome |" time="49.91">
+            <testcase name="Given lanuch EM URL in &quot;Chrome&quot;" classname="| Chrome |" time="5.982"/>
+            <testcase name="Then enter username pssword and click login button" classname="| Chrome |" time="0.265"/>
+            <testcase name="When click on Targets link to see all the options" classname="| Chrome |" time="11.49"/>
+            <testcase name="When click on All Targets link" classname="| Chrome |" time="2.974"/>
+            <testcase name="When check for All Target text on the landed page" classname="| Chrome |" time="24.274"/>
+            <testcase name="When Click on logout" classname="| Chrome |" time="4.924"/>
+            <testcase name="Then Successfully logged out" classname="| Chrome |" time="0.001"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Page Load Testing" time="75.69">
+      <testsuite name="Scenario Outline: Home Page load test" time="75.69">
+        <testsuite name="Examples:" time="75.69">
+          <testsuite name="| FF |" time="30.044">
+            <testcase name="Given lanuch EM URL in &quot;FF&quot;" classname="| FF |" time="4.971"/>
+            <testcase name="Then enter username pssword and click login button" classname="| FF |" time="0.072"/>
+            <testcase name="When checking for enterprise manager text in home page" classname="| FF |" time="22.615"/>
+            <testcase name="When Click on logout" classname="| FF |" time="2.386"/>
+            <testcase name="Then Successfully logged out" classname="| FF |" time="0.0"/>
+          </testsuite>
+          <testsuite name="| Chrome |" time="36.231">
+            <testcase name="Given lanuch EM URL in &quot;Chrome&quot;" classname="| Chrome |" time="6.363"/>
+            <testcase name="Then enter username pssword and click login button" classname="| Chrome |" time="0.103"/>
+            <testcase name="When checking for enterprise manager text in home page" classname="| Chrome |" time="24.38"/>
+            <testcase name="When Click on logout" classname="| Chrome |" time="4.749"/>
+            <testcase name="Then Successfully logged out" classname="| Chrome |" time="0.636"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest (1)" project="mavenprojectprototype" tests="38" started="7" failures="0" errors="2" ignored="4">
+  <testsuite name="mavenprojectprototype.RunnerTest" incomplete="true">
+    <testsuite name="Feature: All Targets Page load test" incomplete="true">
+      <testsuite name="Scenario Outline: All Targets Page load test" incomplete="true">
+        <testsuite name="Examples:" incomplete="true">
+          <testsuite name="| FF |" time="5.167" incomplete="true">
+            <error>org.openqa.selenium.WebDriverException: Failed to find value field
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MATRIPAT-LAP1', ip: '192.167.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 183936, moz:profile: C:\Users\matripat.ORADEV\Ap..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 4815995c-ff86-4c2c-862e-1d37d7798dd2
+*** Element info: {Using=xpath, value=//*[@id="emT:targets"]}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy16.click(Unknown Source)&#13;
+	at mavenprojectprototype.HomePage.clickOnTargetsLink(HomePage.java:37)&#13;
+	at mavenprojectprototype.LoginSteps.click_on_Targets_link_to_see_all_the_options(LoginSteps.java:66)&#13;
+	at ✽.When click on Targets link to see all the options(AllTargetsPageLoad.feature:6)&#13;
+&#13;
+</error>
+            <testcase name="Given lanuch EM URL in &quot;FF&quot;" classname="| FF |" time="0.544"/>
+            <testcase name="Then enter username pssword and click login button" classname="| FF |" time="4.592"/>
+            <testcase name="When click on Targets link to see all the options" classname="| FF |" time="0.031">
+              <error>org.openqa.selenium.WebDriverException: Failed to find value field
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MATRIPAT-LAP1', ip: '192.167.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 183936, moz:profile: C:\Users\matripat.ORADEV\Ap..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 4815995c-ff86-4c2c-862e-1d37d7798dd2
+*** Element info: {Using=xpath, value=//*[@id="emT:targets"]}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy16.click(Unknown Source)&#13;
+	at mavenprojectprototype.HomePage.clickOnTargetsLink(HomePage.java:37)&#13;
+	at mavenprojectprototype.LoginSteps.click_on_Targets_link_to_see_all_the_options(LoginSteps.java:66)&#13;
+	at ✽.When click on Targets link to see all the options(AllTargetsPageLoad.feature:6)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="When click on All Targets link" classname="| FF |" time="0.0" ignored="true"/>
+            <testcase name="When check for All Target text on the landed page" classname="| FF |" time="0.0" ignored="true"/>
+            <testcase name="When Click on logout" classname="| FF |" time="0.0" ignored="true"/>
+            <testcase name="Then Successfully logged out" classname="| FF |" time="0.0" ignored="true"/>
+          </testsuite>
+          <testsuite name="| Chrome |" incomplete="true">
+            <testcase name="Given lanuch EM URL in &quot;Chrome&quot;" classname="| Chrome |" incomplete="true"/>
+            <testcase name="Then enter username pssword and click login button" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When click on Targets link to see all the options" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When click on All Targets link" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When check for All Target text on the landed page" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When Click on logout" classname="| Chrome |" incomplete="true"/>
+            <testcase name="Then Successfully logged out" classname="| Chrome |" incomplete="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Databases Page load test" incomplete="true">
+      <testsuite name="Scenario Outline: databases Page load test" incomplete="true">
+        <testsuite name="Examples:" incomplete="true">
+          <testsuite name="| FF |" incomplete="true">
+            <testcase name="Given lanuch EM URL in &quot;FF&quot;" classname="| FF |" incomplete="true"/>
+            <testcase name="Then enter username pssword and click login button" classname="| FF |" incomplete="true"/>
+            <testcase name="When click on Targets link to see all the options" classname="| FF |" incomplete="true"/>
+            <testcase name="When click on Database option" classname="| FF |" incomplete="true"/>
+            <testcase name="Then Database page should load successfully" classname="| FF |" incomplete="true"/>
+            <testcase name="When Click on logout" classname="| FF |" incomplete="true"/>
+            <testcase name="Then Successfully logged out" classname="| FF |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| Chrome |" incomplete="true">
+            <testcase name="Given lanuch EM URL in &quot;Chrome&quot;" classname="| Chrome |" incomplete="true"/>
+            <testcase name="Then enter username pssword and click login button" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When click on Targets link to see all the options" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When click on Database option" classname="| Chrome |" incomplete="true"/>
+            <testcase name="Then Database page should load successfully" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When Click on logout" classname="| Chrome |" incomplete="true"/>
+            <testcase name="Then Successfully logged out" classname="| Chrome |" incomplete="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Page Load Testing" incomplete="true">
+      <testsuite name="Scenario Outline: Home Page load test" incomplete="true">
+        <testsuite name="Examples:" incomplete="true">
+          <testsuite name="| FF |" incomplete="true">
+            <testcase name="Given lanuch EM URL in &quot;FF&quot;" classname="| FF |" incomplete="true"/>
+            <testcase name="Then enter username pssword and click login button" classname="| FF |" incomplete="true"/>
+            <testcase name="When checking for enterprise manager text in home page" classname="| FF |" incomplete="true"/>
+            <testcase name="When Click on logout" classname="| FF |" incomplete="true"/>
+            <testcase name="Then Successfully logged out" classname="| FF |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| Chrome |" incomplete="true">
+            <testcase name="Given lanuch EM URL in &quot;Chrome&quot;" classname="| Chrome |" incomplete="true"/>
+            <testcase name="Then enter username pssword and click login button" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When checking for enterprise manager text in home page" classname="| Chrome |" incomplete="true"/>
+            <testcase name="When Click on logout" classname="| Chrome |" incomplete="true"/>
+            <testcase name="Then Successfully logged out" classname="| Chrome |" incomplete="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
